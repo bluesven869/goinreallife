@@ -1474,10 +1474,10 @@ function get_custom_header_markup() {
  */
 function the_custom_header_markup() {
 	$custom_header = get_custom_header_markup();
+
 	if ( empty( $custom_header ) ) {
 		return;
 	}
-
 	echo $custom_header;
 
 	if ( is_header_video_active() && ( has_header_video() || is_customize_preview() ) ) {

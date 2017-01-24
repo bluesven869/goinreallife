@@ -309,6 +309,7 @@ template {
 	position: absolute !important;
 	width: 1px;
 	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+
 }
 
 .screen-reader-text:focus {
@@ -1310,6 +1311,7 @@ a:hover .nav-title,
 }
 
 .navigation-top .wrap {
+	background: white;
 	max-width: 1000px;
 	padding: 0;
 }
@@ -1573,7 +1575,7 @@ body {
 	letter-spacing: 0.08em;
 	margin: 0;
 	padding: 0;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .site-title,
@@ -1586,7 +1588,7 @@ body.has-header-image .site-title,
 body.has-header-video .site-title,
 body.has-header-image .site-title a,
 body.has-header-video .site-title a {
-	color: #fff;
+	color: #333;
 }
 
 .site-description {
@@ -1611,7 +1613,7 @@ body.has-header-video .site-description {
 
 .custom-logo-link img {
 	display: inline-block;
-	max-height: 80px;
+	max-height: 50px;
 	width: auto;
 }
 
@@ -3307,7 +3309,7 @@ object {
 	.has-header-video.twentyseventeen-front-page .site-branding,
 	.has-header-image.home.blog .site-branding,
 	.has-header-video.home.blog .site-branding {
-		bottom: 0;
+		top: 0;
 		display: block;
 		left: 0;
 		height: auto;

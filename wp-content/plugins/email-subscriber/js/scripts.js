@@ -98,7 +98,15 @@ jQuery(document).ready(function(jQuery)
 		
 		//jQuery(".subscribe-status-email").html("Not a valid e-mail address. ");
 		//jQuery(".subscribe-status").html("");
-			alert("Not a valid e-mail address.");
+			//alert("Not a valid e-mail address.");
+			//Enter your email to recieve access to beta release
+			jQuery("#subscribe_status").html("Not a valid e-mail address. ");
+			jQuery("#subscribe_status").addClass("error");
+			setTimeout(function(){
+			  jQuery("#subscribe_status").removeClass("error");
+			  jQuery("#subscribe_status").html("Enter your email to recieve access to beta release.");
+			  jQuery(".subscribe_email").focus();
+			}, 2000);
 			var email = 'false';
         return false;
 		}
@@ -113,6 +121,7 @@ jQuery(document).ready(function(jQuery)
 		name = 'true';
 		if(name=='true' && email=='true')
 			{
+
 				jQuery.ajax(
 					{
 					type:"POST",
@@ -120,16 +129,16 @@ jQuery(document).ready(function(jQuery)
 					data:{action:"kento_email_subscriber_ajax",subscribe_email:subscribe_email,subscribe_name:subscribe_name},
 					success:function(data)
 						{
-							jQuery(".result").html("Thank you! Your email has been submitted.");
+							alert(data);
+							//jQuery(".subscribe_email").hide();
+							//jQuery(".subscribe_submit").hide();
+							jQuery(".result").html("");
+							jQuery(".email").html("<p class='thankyou'><label class='ok'>&nbsp;</label>Thank you! Your email has been submitted.</p>")
+							
 							//jQuery(".subscribe-status-email").html("");
 						}
 					})
 			}
-
-
-	
-	
-			
 					
 		});
 					

@@ -1539,6 +1539,7 @@ body {
 
 #masthead .wrap {
 	position: relative;
+	height: 25px;
 }
 
 .site-header {
@@ -1569,11 +1570,10 @@ body {
 
 .site-title {
 	clear: none;
-	font-size: 24px;
-	font-size: 1.5rem;
-	font-weight: 800;
-	line-height: 1.25;
-	letter-spacing: 0.08em;
+	font-size: 20px;	
+	font-weight: 100;
+	line-height: 1;
+	letter-spacing: 0px;
 	margin: 0;
 	padding: 0;
 	/*text-transform: uppercase;*/
@@ -1585,6 +1585,7 @@ body {
 	opacity: 1; /* Prevent opacity from changing during selective refreshes in the customize preview */
 	font-family: 'Adobe Heiti Std', sans-serif;
 	font-size:20px;
+	margin-top:-20px;
 }
 
 body.has-header-image .site-title,
@@ -3353,7 +3354,7 @@ object {
 	}
 
 	.custom-logo-link {
-		padding-right: 1em;
+		padding-right: 0px;
 	}
 
 	.custom-logo-link img,

@@ -129,7 +129,7 @@ jQuery(document).ready(function(jQuery)
 					data:{action:"kento_email_subscriber_ajax",subscribe_email:subscribe_email,subscribe_name:subscribe_name},
 					success:function(data)
 						{
-							alert(data);
+							//alert(data);
 							//jQuery(".subscribe_email").hide();
 							//jQuery(".subscribe_submit").hide();
 							jQuery(".result").html("");

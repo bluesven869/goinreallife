@@ -30,7 +30,7 @@
 		<div class="bar">&nbsp;</div>
 		<div class="introduce">
 			<h1>All your Dating Apps - in one unified experience </h1>
-			<p class="caption">Less "dating" on your phone, more meeting people in the real world</p>
+			<p class="caption">Less "dating" on your phone, more meeting people in the real world.</p>
 
 			<div class="desk">&nbsp;</div>
 			<div class="right-computer">&nbsp;</div>
@@ -43,14 +43,14 @@
 							<div class="subscribe_form_option">
 								<div class="check-text"><i class="fa fa-check font-18" aria-hidden="true"></i>&nbsp;&nbsp;Centralized feed for all prospects</div>
 								<div class="check-text"><i class="fa fa-check font-18" aria-hidden="true"></i>&nbsp;&nbsp;Filter and sort matches across networks</div>
-								<div class="check-text"><i class="fa fa-check font-18" aria-hidden="true"></i>&nbsp;&nbsp;One message in box for all conversations</div>
+								<div class="check-text"><i class="fa fa-check font-18" aria-hidden="true"></i>&nbsp;&nbsp;One message inbox for all conversations</div>
 								<div class="check-text"><i class="fa fa-check font-18" aria-hidden="true"></i>&nbsp;&nbsp;Change your profile once, update it everywhere</div>
 								<div class="email">
 								<input class="subscribe_email" placeholder="Get early access" name="email" type="email"><button class="subscribe_submit">SEND</button>
 								</div>
 								<h4 class="subscribe_text" style="display: none">Name</h4>
 								<input class="subscribe_name"  style="display: none;" placeholder="Type Your Name" name="name" type="name">	
-								<div id='subscribe_status' class="result">Enter your email to recieve access to beta release</div>
+								<div id='subscribe_status' class="result">Leave your email and we’ll add you to our beta invite list</div>
 							</div>
 						</div>
 					</div>					

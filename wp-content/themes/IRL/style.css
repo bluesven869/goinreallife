@@ -3284,9 +3284,35 @@ object {
 	/* Layout */
 
 	.wrap {
-		max-width: 70%;
+		width:70%;			
 		margin:0 auto;		
 	}
+
+@media screen and ( min-width: 1000px ) {		
+	.wrap {
+		width:840px;			
+		margin:0 auto;		
+	}
+}
+
+@media screen and (max-width:999px ) and ( min-width: 900px ) {
+	.wrap {
+		width:800px;		
+		margin:0 auto;		
+	}
+}
+@media screen and (max-width:899px ) and ( min-width: 810px ) {
+	.wrap {
+		width:760px;		
+		margin:0 auto;		
+	}
+}
+@media screen and (max-width:809px ) and ( min-width: 768px ) {
+	.wrap {
+		width:720px;		
+		margin:0 auto;		
+	}
+}
 
 	.has-sidebar:not(.error404) #primary {
 		float: left;
@@ -4313,7 +4339,7 @@ object {
 		top:95px;
 	}
 	.main-header-body .introduce .right-computer{
-		width:230px;
+		width:232px;
 		height:150px;
 		background:url(assets/images/monitor.png) no-repeat;
 		position: absolute;
@@ -4420,10 +4446,11 @@ object {
 
 .main-header-body .footer-icon{
 	position: relative;
+
 	width:204px;
 	height:117px;
 	margin: 0 auto;
-	margin-top:500px;	
+	margin-top:530px;	
 	z-index: 1000;
 	background:url(assets/images/footer-icons.png) no-repeat;
 }
